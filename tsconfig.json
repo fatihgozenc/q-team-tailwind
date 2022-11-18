@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "outDir": "./build",
+        "moduleResolution": "node",
+        "lib": ["es2018", "dom"],
+        "target": "es5",
+        "module": "es6",
+        "jsx": "react-jsx",
+        "allowJs": true,
+        "noImplicitAny": true,
+        "allowSyntheticDefaultImports": true,
+        "typeRoots": [
+            "./src/env.d.ts"
+        ]
+    }
+}

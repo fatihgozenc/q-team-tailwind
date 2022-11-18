@@ -1,0 +1,27 @@
+{
+    "name": "create-zen-app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "bin": {
+        "create-zen-app": "./bin/create-zen-app.js"
+    },
+    "scripts": {
+        "build": "npx zen-react-scripts build",
+        "dev": "npx zen-react-scripts dev",
+        "local": "npx zen-react-scripts local"
+    },
+    "dependencies": {
+        "@babel/runtime": "^7.20.1",
+        "preact": "^10.11.3",
+        "react-router-dom": "^6.4.3"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.25",
+        "@types/react-dom": "^18.0.9",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "zen-react-scripts": "https://github.com/fatihgozenc/zen-react-scripts"
+    },
+    "browserslist": "edge >= 13, firefox >= 50, and_ff >= 50, chrome >= 49, and_chr >= 49, ios >= 9.4, safari >= 9.4, samsung >= 5, and_uc >= 11.8, opera >= 40, op_mob >= 40, baidu >= 7"
+}
